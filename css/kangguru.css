@@ -8,6 +8,7 @@
   background-color: transparent;
   color: white;
   transition-duration: .5s;
+  z-index: 10;
 }
 
 .judul {
@@ -126,4 +127,68 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.front-desc {
+  position: relative;
+  background-color: #ef6c00;
+  color: white;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.front-desc h1, .back-desc h1 {
+  font-size: 4rem;
+}
+
+.front-desc p, .back-desc p {
+  font-size: 2rem;
+}
+
+.back-desc {
+  position: relative;
+  background-color: #222e50;
+  color: white;
+  padding: 10px 0;
+}
+
+.icon-lg {
+  font-size: 10rem;
+  margin: 50px;
+}
+
+.fitur {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  z-index: -2;
+}
+
+.fitur-sub {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+.pengembang {
+  width: 100%;
+  height: 60vh;
+  background-color: black;
+  color: white;
+}
+
+.teks-besar {
+  font-size: 5rem;
+}
+
+.teks-sedang {
+  font-size: 2rem;
+}
+
+.icon-border {
+  border: 5px solid white;
+  border-radius: 20px;
 }
