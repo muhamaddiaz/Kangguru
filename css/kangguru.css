@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.navigasi {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  transition-duration: .5s;
+}
+
+.judul {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 5px 0;
+}
+
+.menu-judul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-judul li {
+  float: left;
+  font-size: 1.5rem;
+  padding: 16px 15px;
+}
+
+.menu-putih {
+  color: black;
+  background-color: white;
+}
+
+.konten-utama {
+  background-image: url('image/coding.jpg');
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.blur {
+  background-color: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100vh;
+}
+
+.sambut-group {
+  position: relative;
+  transform: translateY(100%);
+}
+
+.sambut {
+  display: inline-block;
+  color: white;
+  font-size: 8rem;
+}
+
+.kurawal {
+  font-size: 9rem;
+}
+
+.kang {
+  color: ;
+}
+
+.sambut-sub {
+  color: white;
+  font-size: 3em;
+}
+
+.tim {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+.tim .frontend {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: #ef6c00;
+  color: white;
+}
+
+.frontend .front-text {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tim .pemisah {
+  font-weight: 900;
+  position: absolute;
+  width: 150px;
+  height: 300px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%) skewX(-20deg);
+  z-index: 2;
+}
+
+.tim .backend {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  float: left;
+  height: 300px;
+  background-color: #222e50;
+  color: white;
+}
+
+.backend .backend-text {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
