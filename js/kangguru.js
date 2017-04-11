@@ -18,4 +18,7 @@ $(function() {
       $('.sambut-sub').html(oTextSub);
     }
   });
+  $('.tim').waypoint(function(d) {
+      console.log("Helloworld");
+  });
 });
