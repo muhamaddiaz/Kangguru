@@ -39,5 +39,5 @@ $(function() {
         $('.pemisah').removeClass('divider-anim');
         $('.backend').removeClass('backend-anim');
       }
-  }, {'offset': '50%'});
+  }, {'offset': '95%'});
 });
